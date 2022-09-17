@@ -1,0 +1,10 @@
+﻿Console.WriteLine("Write number 1");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Write number 2");
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine("Write number 3");
+int c = int.Parse(Console.ReadLine());
+int max = a;
+if (a < b) max = b;
+    if (b < c) max = c;
+Console.WriteLine($"MAX number = {max} !!!");
